@@ -1,8 +1,13 @@
 <template>
   <nav class="flex align-center space-between">
-    <router-link to="/">
-      <div class="logo">MOVIE-MAX.</div>
-    </router-link>
+    <div class="flex align-center space-between">
+      <router-link to="/">
+        <div class="logo">MOVIE-MAX.</div>
+      </router-link>
+      <router-link to="/">
+        <span>Home</span>
+      </router-link>
+    </div>
     <div class="flex align-center space-between">
       <router-link to="/movie">
         <span v-if="user">Add movies</span>
