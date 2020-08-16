@@ -8,7 +8,7 @@
       <p>{{movie.rate}}</p>
     </div>
     <button @click="onOrderTickets" class="order-tickets">ORDER TICKETS</button>
-    <button class="edit-user" @click="editMovie" v-if="user">Edit Movie</button>
+    <button class="edit-movie" @click="editMovie" v-if="user">Edit Movie</button>
   </div>
 </template>
 <script lang="ts">

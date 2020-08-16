@@ -15,20 +15,22 @@
         background-color: #e62739;
         color: white;
         height: 40px;
-        width: 130px;
+        width: 140px;
         outline: none;
         border: none;
+        border-radius: 3px;
         margin-bottom: 5px;
         transition: background-color 300ms linear;
         &:hover {
             background-color: #0d0d15;
         }
     }
-    .edit-user {
+    .edit-movie {
         background-color: #27aae6;
         color: white;
         height: 40px;
-        width: 130px;
+        width: 140px;
+        border-radius: 3px;
         outline: none;
         border: none;
         transition: background-color 300ms linear;

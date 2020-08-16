@@ -19,7 +19,7 @@
       <div class="flex">
         <span>{{movie.desc}}</span>
       </div>
-      <button class="order-tickets">ORDER TICKETS</button>
+      <button @click="onOrderTickets" class="order-tickets">ORDER TICKETS</button>
     </div>
   </section>
 </template>
@@ -35,13 +35,19 @@ import { BIcon, BIconClock } from "bootstrap-vue";
   },
 })
 export default class MovieDetails extends Vue {
-  async created() {    
+  async created() {
     const movieId = this.$route.params.id;
     await this.$store.dispatch({ type: "getMovie", movieId });
   }
 
   get movie(): Movie {
     return this.$store.getters.currMovie;
+  }
+  onOrderTickets() {
+    this.$router.push({
+      path: "/ticketInfo",
+      query: { movieId: this.movie._id },
+    });
   }
 }
 </script>
