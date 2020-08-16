@@ -1,0 +1,16 @@
+.ticket-info-cont {
+    width: 100vw;
+    height: 90vh;
+    background-image: url("../..~@/assets/img/tickets.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .ticket-info-form {
+        background-color: rgba(128, 128, 128, 0.34);
+        margin: 0 auto;
+        width: 750px;
+        min-height: 750px;
+        form {
+            width: 350px;
+        }
+    }
+}

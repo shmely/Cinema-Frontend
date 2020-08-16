@@ -1,0 +1,17 @@
+.login-root {
+    width: 100vw;
+    height: 90vh;
+    .login-cont {
+        background-color: #2554ff;
+        width: 600px;
+        height: 600px;
+        margin: auto auto;
+        .login {
+            width: 500px;
+            height: 500px;
+            label {
+                font-weight: 500;
+            }
+        }
+    }
+}

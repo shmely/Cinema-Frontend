@@ -1,0 +1,26 @@
+.thank-you {
+    width: 100vw;
+    color: #e20067;
+    min-height: 94vh;
+    background-image: url("../..~@/assets/img/popcorn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .btn-send-mail {
+        background-color: #ff0476;
+        text-transform: uppercase;
+        font-family: segoe-ui-bold, roboto-normal, Arial, Helvetica, sans-serif;
+        font-size: rem(20px);
+        padding: rem(20px) rem(30px);
+        font-weight: normal;
+        display: inline-block;
+        border-radius: rem(100px);
+        color: white;
+        outline: none;
+        transition-duration: 0.3s;
+        transition-property: background-color;
+        transition-timing-function: ease;
+        &:hover {
+            background-color: #e20067;
+        }
+    }
+}

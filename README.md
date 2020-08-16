@@ -1,4 +1,4 @@
-# theatre
+# theater
 
 ## Project setup
 ```

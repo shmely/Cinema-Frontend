@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    max-height: 100vh;
+    color: black;
+    font-family: raleway;
+}
+
+.logo {
+    height: 32px;
+    font-size: rem(24px);
+    color: black;
+    background-color: #e2b616;
+    font-family: ranchers;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+.btn_next {
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: #ff0476;
+    margin: 15px;
+}
+
+.btn_next:disabled,
+[disabled] {
+    background-color: grey;
+}
+
+.btn_prev {
+    width: 80px;
+    height: 50px;
+    background-color: #3700b3;
+    margin: 15px;
+}

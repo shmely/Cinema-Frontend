@@ -1,0 +1,19 @@
+.frm-theat-area {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.theat-map {
+    display: grid;
+    padding: 20px 0;
+    justify-content: space-around;
+    grid-auto-flow: column;
+    gap: 5px;
+    .cell {
+        border: 1px solid grey;
+        background-color: lightblue;
+        width: 20px;
+        height: 20px;
+    }
+}

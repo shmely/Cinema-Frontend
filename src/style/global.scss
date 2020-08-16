@@ -1,0 +1,24 @@
+/*  BASE  */
+
+@import "./basics/helpers";
+@import "./basics/base";
+@import "./basics/functions";
+@import "./basics/layout";
+@import "./basics/mixins";
+@import "./basics/typography";
+@import "./basics/variables";
+//views
+@import "./views//TheaterMap";
+@import "./views/Home";
+@import "./views/MovieDetails";
+@import "./views/Login";
+@import "./views//CreateThreatre";
+@import "./views/TicketInfo";
+@import "./views/CreditCardForm";
+@import "./cmps/Ticket";
+@import "./views/ThankYou";
+@import "./views/AddEditMovie";
+//components
+@import "./cmps/NavBar";
+@import "./cmps/Chair";
+@import "./cmps/MoviePriview";

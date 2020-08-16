@@ -1,0 +1,17 @@
+.home {
+    width: 100vw;
+    min-height: 90vh;
+    background-color: #1b1920;
+    color: white;
+    h1 {
+        margin: 15px 0;
+    }
+    .movies {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(3, 190px);
+        gap: 15px;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+}
